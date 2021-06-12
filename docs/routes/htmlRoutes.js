@@ -1,7 +1,7 @@
 
 const path = require('path');
 
-// ROUTING
+// ROUTING to webpages
 
 module.exports = (app) => {
   app.get('/notes', (req, res) => {
