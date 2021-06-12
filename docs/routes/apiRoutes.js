@@ -1,5 +1,4 @@
 const uniqid = require('uniqid');
-const db = require('../db/db.json');
 const fs = require('fs');
 
 // API ROUTING
