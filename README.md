@@ -14,11 +14,11 @@ After opening the Note Taker...
 * If the plus icon is clicked the field updates to add a new blank note
 
 # Homepage
-![image of webpage](docs/images/demo.png)
+![image of webpage](images/demo.png)
 # Adding a Note
-![image of webpage](docs/images/demo2.png)
+![image of webpage](images/demo2.png)
 # View a note
-![image of webpage](docs/images/demo3.png)
+![image of webpage](images/demo3.png)
 
 View Live Webpage!
 https://take-your-note.herokuapp.com/
