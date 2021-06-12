@@ -12,4 +12,22 @@ module.exports = (app) => {
     })
   });
 
+  // Post a new note
+  app.post('/api/notes', (req, res) => {
+    // Start
+    fs.readFile('./db/db.json', (err, data) => {
+        if(err){
+            console.error(err);
+        } else{
+            let allNotes = JSON.parse(data);
+            let newNote = req.body;
+            newNote['id'] = uniqid();
+            allNotes.push(newNote);
+            fs.writeFile('./db/db.json', JSON.stringify(allNotes), (err) => {
+                err ? console.error(err) : console.log('Successfully Added!');
+            })
+            res.json(newNote);
+        }
+    })
+  });
 };
