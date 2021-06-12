@@ -13,12 +13,11 @@ After opening the Note Taker...
 * When clicking on a note from the left column it is displayed to the right column
 * If the plus icon is clicked the field updates to add a new blank note
 
-# Intro
+# Homepage
 ![image of webpage](docs/images/demo.png)
-# Search Display
+# Adding a Note
 ![image of webpage](docs/images/demo2.png)
-# Previous Searches
+# View a note
 ![image of webpage](docs/images/demo3.png)
 
 View Live Webpage!
-https://alec74.github.io/weatherDashboard/
